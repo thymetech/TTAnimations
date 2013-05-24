@@ -12,7 +12,6 @@
 		93BDECCF174FC5B500D95E2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BDECCE174FC5B500D95E2F /* CoreGraphics.framework */; };
 		93BDECD5174FC5B500D95E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93BDECD3174FC5B500D95E2F /* InfoPlist.strings */; };
 		93BDECD7174FC5B500D95E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDECD6174FC5B500D95E2F /* main.m */; };
-		93BDECDB174FC5B500D95E2F /* TTANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDECDA174FC5B500D95E2F /* TTANAppDelegate.m */; };
 		93BDECDD174FC5B500D95E2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BDECDC174FC5B500D95E2F /* Default.png */; };
 		93BDECDF174FC5B500D95E2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BDECDE174FC5B500D95E2F /* Default@2x.png */; };
 		93BDECE1174FC5B500D95E2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BDECE0174FC5B500D95E2F /* Default-568h@2x.png */; };
@@ -21,6 +20,8 @@
 		93BDECEB174FC5B500D95E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BDECCC174FC5B500D95E2F /* Foundation.framework */; };
 		93BDECF3174FC5B500D95E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93BDECF1174FC5B500D95E2F /* InfoPlist.strings */; };
 		93BDECF6174FC5B500D95E2F /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDECF5174FC5B500D95E2F /* AnimationsTests.m */; };
+		93BDED02174FC9CF00D95E2F /* TTANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */; };
+		93BDED03174FC9CF00D95E2F /* TTANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,6 @@
 		93BDECD4174FC5B500D95E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93BDECD6174FC5B500D95E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93BDECD8174FC5B500D95E2F /* Animations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animations-Prefix.pch"; sourceTree = "<group>"; };
-		93BDECD9174FC5B500D95E2F /* TTANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTANAppDelegate.h; sourceTree = "<group>"; };
-		93BDECDA174FC5B500D95E2F /* TTANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTANAppDelegate.m; sourceTree = "<group>"; };
 		93BDECDC174FC5B500D95E2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		93BDECDE174FC5B500D95E2F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		93BDECE0174FC5B500D95E2F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		93BDECF2174FC5B500D95E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93BDECF4174FC5B500D95E2F /* AnimationsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationsTests.h; sourceTree = "<group>"; };
 		93BDECF5174FC5B500D95E2F /* AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTests.m; sourceTree = "<group>"; };
+		93BDED00174FC9CF00D95E2F /* TTANAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTANAppDelegate.h; sourceTree = "<group>"; };
+		93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTANAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +113,7 @@
 		93BDECD0174FC5B500D95E2F /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				93BDECD9174FC5B500D95E2F /* TTANAppDelegate.h */,
-				93BDECDA174FC5B500D95E2F /* TTANAppDelegate.m */,
+				93BDECFF174FC9CF00D95E2F /* App */,
 				93BDECD1174FC5B500D95E2F /* Supporting Files */,
 			);
 			path = Animations;
@@ -150,6 +150,15 @@
 				93BDECF1174FC5B500D95E2F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93BDECFF174FC9CF00D95E2F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				93BDED00174FC9CF00D95E2F /* TTANAppDelegate.h */,
+				93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BDECD7174FC5B500D95E2F /* main.m in Sources */,
-				93BDECDB174FC5B500D95E2F /* TTANAppDelegate.m in Sources */,
+				93BDED02174FC9CF00D95E2F /* TTANAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BDECF6174FC5B500D95E2F /* AnimationsTests.m in Sources */,
+				93BDED03174FC9CF00D95E2F /* TTANAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
