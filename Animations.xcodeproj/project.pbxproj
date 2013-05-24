@@ -22,6 +22,8 @@
 		93BDECF6174FC5B500D95E2F /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDECF5174FC5B500D95E2F /* AnimationsTests.m */; };
 		93BDED02174FC9CF00D95E2F /* TTANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */; };
 		93BDED03174FC9CF00D95E2F /* TTANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */; };
+		93BDED05174FCBF100D95E2F /* TTANApp_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BDED04174FCBF100D95E2F /* TTANApp_iPhone.storyboard */; };
+		93BDED06174FCBF100D95E2F /* TTANApp_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BDED04174FCBF100D95E2F /* TTANApp_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 		93BDECF5174FC5B500D95E2F /* AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTests.m; sourceTree = "<group>"; };
 		93BDED00174FC9CF00D95E2F /* TTANAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTANAppDelegate.h; sourceTree = "<group>"; };
 		93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTANAppDelegate.m; sourceTree = "<group>"; };
+		93BDED04174FCBF100D95E2F /* TTANApp_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TTANApp_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,7 @@
 			children = (
 				93BDED00174FC9CF00D95E2F /* TTANAppDelegate.h */,
 				93BDED01174FC9CF00D95E2F /* TTANAppDelegate.m */,
+				93BDED04174FCBF100D95E2F /* TTANApp_iPhone.storyboard */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -237,6 +241,7 @@
 				93BDECDD174FC5B500D95E2F /* Default.png in Resources */,
 				93BDECDF174FC5B500D95E2F /* Default@2x.png in Resources */,
 				93BDECE1174FC5B500D95E2F /* Default-568h@2x.png in Resources */,
+				93BDED05174FCBF100D95E2F /* TTANApp_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BDECF3174FC5B500D95E2F /* InfoPlist.strings in Resources */,
+				93BDED06174FCBF100D95E2F /* TTANApp_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
